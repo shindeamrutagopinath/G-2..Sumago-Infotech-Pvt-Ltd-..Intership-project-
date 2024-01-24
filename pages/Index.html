@@ -1,0 +1,599 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <link rel="stylesheet" href="../pages/css/index.css">
+    <link rel="stylesheet" href="../pages/css/footer.css">
+</head>
+<body>
+
+<nav class="navbar navbar-light" style="background-color: rgb(224, 241, 247);">
+    <a class="navbar-brand" href="#">
+      <img src="../pages/Img/logoo-removebg-preview.png" height="90px" width="250px" class="d-inline-block align-top" alt="">
+    </a>
+    <form class="form-inline">
+        <input class="form-control mr-sm-2" type="search" placeholder="Search "aria-label="Search">
+        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+      </form>
+      
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav">
+          <a class="nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
+          <a class="nav-link" href="../pages/login.html">Login</a>
+          <a class="nav-link" href="../pages/Signup.html">Signup</a>
+          <a class="nav-link " href="../pages/">Add to cart</a>
+         
+        </div>
+      </div>
+  </nav>
+  <nav class="navbar navbar-expand-lg navbar-light" style="background-color: rgb(5, 5, 65);">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavDropdown" >
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="#" style="color: aliceblue;">Features</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#" style="color: aliceblue;">Pricing</a>
+          </li>
+          &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="../pages/groceries.html" role="button" data-toggle="dropdown" aria-expanded="false" style="color: aliceblue;">
+              GROCERIES
+            </a>
+            <div class="dropdown-menu">
+              <a class="dropdown-item" href="../pages/groceries.html">Fruits & Vegetable</a>
+              <a class="dropdown-item" href="../pages/groceries.html">Dairy & Bakery</a>
+              <a class="dropdown-item" href="../pages/groceries.html">Personal care</a>
+            </div>
+          </li>
+
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-expanded="false" style="color: aliceblue;">
+              HOME & KITCHEN
+            </a>
+            <div class="dropdown-menu">
+              <a class="dropdown-item" href="#">kitchenware</a>
+              <a class="dropdown-item" href="#">Home Decor</a>
+              <a class="dropdown-item" href="#">Furnishing</a>
+              <a class="dropdown-item" href="#">Prayer & Spiritual Needs</a>
+              <a class="dropdown-item" href="#">Disposable</a>
+              <a class="dropdown-item" href="#">Tableware</a>
+              <a class="dropdown-item" href="#">Garden & Outdoor</a>
+            </div>
+          </li>
+
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-expanded="false" style="color: aliceblue;">
+               Electonics
+            </a>
+            <div class="dropdown-menu">
+              <a class="dropdown-item" href="#">Mobiles & Tablets</a>
+              <a class="dropdown-item" href="#">TV & Speaker</a>
+              <a class="dropdown-item" href="#">Home Applicance</a>
+              <a class="dropdown-item" href="#">Kitchen Appliance</a>
+              <a class="dropdown-item" href="#">Smart Devices</a>
+              <a class="dropdown-item" href="#">Gemstone</a>
+              <a class="dropdown-item" href="#">Gaming</a>
+            </div>
+          </li>
+
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-expanded="false" style="color: aliceblue;">
+                 JEWELLERY
+            </a>
+            <div class="dropdown-menu">
+              <a class="dropdown-item" href="#">Gold</a>
+              <a class="dropdown-item" href="#"></a>Silver
+              <a class="dropdown-item" href="#">Diamond</a>
+              <a class="dropdown-item" href="#">Pearl</a>
+            </div>
+          </li>
+
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-expanded="false" style="color: aliceblue;">
+              BEAUTY
+            </a>
+            <div class="dropdown-menu">
+              <a class="dropdown-item" href="#">lipstick</a>
+              <a class="dropdown-item" href="#"></a>
+              <a class="dropdown-item" href="#">Hair</a>
+              <a class="dropdown-item" href="#">Skin care</a>
+              <a class="dropdown-item" href="#">Mom & Baby</a>
+              <a class="dropdown-item" href="#">Fragrance</a>
+            </div>
+          </li>
+
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-expanded="false" style="color: aliceblue;">
+                CLOTHING
+            </a>
+            <div class="dropdown-menu">
+              <a class="dropdown-item" href="#">Kid ware</a>
+              <a class="dropdown-item" href="#">Mens & Womens</a>
+              <a class="dropdown-item" href="#">Fancy</a>
+             
+            </div>
+          </li>
+
+          
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-expanded="false" style="color: aliceblue;">
+             PREMIUM FOOD
+            </a>
+            <div class="dropdown-menu">
+              <a class="dropdown-item" href="#">Veg</a>
+              <a class="dropdown-item" href="#">Non-veg</a>
+              <a class="dropdown-item" href="#">Indian-dishes</a>
+              <a class="dropdown-item" href="#">All Dishes</a>
+            </div>
+          </li>
+
+        </ul>
+      </div>
+  </nav>
+
+  <br>
+
+  <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="https://www.jiomart.com/images/cms/aw_rbslider/slides/1705789211_Aaj_ki_deals_Desktop.jpg?im=Resize=(1680,320)" class="d-block w-100" alt="..." height="350px">
+      </div>
+      <div class="carousel-item">
+        <img src="https://www.jiomart.com/images/cms/aw_rbslider/slides/1705948169_Right_To_Big_Savings.jpg?im=Resize=(1680,320)" class="d-block w-100" alt="..." height="350px"> 
+      </div>
+      <div class="carousel-item">
+        <img src="https://www.jiomart.com/images/cms/aw_rbslider/slides/1705789931_Save_Big_On_Groceries.jpg?im=Resize=(1680,320)" class="d-block w-100" alt="..." height="350px">
+      </div>
+      <div class="carousel-item">
+        <img src="https://www.jiomart.com/images/cms/aw_rbslider/slides/1705948337_Dazzling_Deals.jpg?im=Resize=(1680,320)" class="d-block w-100" alt="..." height="350px">
+      </div>
+      <div class="carousel-item">
+        <img src="https://www.jiomart.com/images/cms/aw_rbslider/slides/1705948307_Kurtas_and_Kurtis.jpg?im=Resize=(1680,320)" class="d-block w-100" alt="..." height="350px">
+      </div>
+      <div class="carousel-item">
+        <img src="https://www.jiomart.com/images/cms/aw_rbslider/slides/1705789896_Experience_The_Magic_of_Soulful_And_Handmade_Crafts.jpg?im=Resize=(1680,320)" class="d-block w-100" alt="..." height="350px">
+      </div>
+    </div>
+   <button class="carousel-control-prev" type="button" data-target="#carouselExampleControls" data-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-target="#carouselExampleControls" data-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </button>
+  </div>
+<br/>
+
+<div class="container">
+    <div class="my-5">
+        <h1 class="text-center">Top Deals On Daily Essentials</h1>
+        <div class="row ">
+            <div class="col-sd-12 col-md-4">
+                <div class="img-card-1">
+                    <div class="card my-4 mx-4 shadow " style="width: 18rem;">
+                        <img src="https://www.jiomart.com/images/product/original/490998044/nivea-soft-light-moisturiser-cream-for-face-hands-body-300-ml-product-images-o490998044-p490998044-0-202305301942.jpg?im=Resize=(360,360)" class="card-img-top " alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title ">Nivea</h5>
+                            <p class="card-text ">Nivea Soft Light Moisturiser Cream for Face, Hands & Body 300 ml</p>
+                            <p>₹275.00  &nbsp;<del>₹550.00</del> &nbsp;&nbsp; 50% Off</p>
+                            <div class="d-flex justify-content-around">
+                               <img src="../pages/Img/like-off.png" class="pt-1 like-h" id="img-like-1" onclick="changeImg('1')">
+                                <a href="#">Order Now</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class=" col-sd-12 col-md-4 ">
+                <div class="img-card-1">
+                    <div class="card my-4 mx-4  shadow  " style="width: 18rem;">
+                        <img src="https://www.jiomart.com/images/product/original/493831224/cotton-bolls-textiles-multicolor-cotton-hand-towel-pack-of-6-product-images-o493831224-p603709799-0-202308092011.jpg?im=Resize=(360,360)" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title ">Cotton Bolls Textiles
+                            </h5>
+                            <p class="card-text ">Cotton Bolls Textiles Cotton Hand Towel </p>
+                            <p>₹199.00  &nbsp;<del>₹749.00</del> &nbsp;&nbsp; 73% Off</p>
+                            <div class="d-flex justify-content-around">
+                                <img src="../pages/Img/like-off.png" class="pt-1 like-h" id="img-like-2" onclick="changeImg('2')">
+                                <a href="#">Order Now</a>
+                               
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-sd-12 col-md-4 ">
+                <div class="img-card-1">
+                    <div class="card my-4 mx-4 shadow " style="width: 18rem;">
+                        <img src="https://www.jiomart.com/images/product/original/rvvi69jjvs/gulmeren-women-s-ethnic-slip-on-flat-chappals-embellished-traditional-footwear-product-images-rvvi69jjvs-0-202311061906.jpg?im=Resize=(600,750)" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title ">Gulmeren
+                            </h5>
+                            <p class="card-text ">Gulmeren Women's Ethnic Slip-On Flat & Traditional Footwear</p>
+                            <p>₹299.00  &nbsp;<del>₹999.00</del> &nbsp;&nbsp; 70% Off</p>
+                            <div class="d-flex justify-content-around">
+                                <img src="../pages/Img/like-off.png" class="pt-1 like-h" id="img-like-3" onclick="changeImg('3')">
+                                <a href="#">Order Now</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+
+
+
+<div class="container r-bag">
+    <div class="card-text">
+        <h1 class="text-center py-3">Blockbuster Deals on Public Demand</h1>
+        <div class="row ">
+            <div class="col-sd-6 col-md-3">
+                <div class="card-2 mb-4 py-3">
+                    <div class="img-card-2">
+                        <img src="https://www.jiomart.com/images/cms/aw_rbslider/slides/1705765181_4.jpg?im=Resize=(223,280)" class="img-fluid my-4 w-300 px-5" alt="...">
+                    </div>
+                </div>
+            </div>
+            <div class="col-sd-6 col-md-3">
+                <div class="card-2 mb-4 py-3">
+                    <div class=" img-card-2">
+                        <img src="https://www.jiomart.com/images/cms/aw_rbslider/slides/1705770847_10.jpg?im=Resize=(223,280)" class="img-fluid  my-4 w-300 px-5 rounded-full" alt="...">
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-sd-6 col-md-3">
+                <div class="card-2 mb-4 py-3">
+                    <div class="img-card-2">
+                        <img src="https://www.jiomart.com/images/cms/aw_rbslider/slides/1705770885_11.jpg?im=Resize=(223,280)" class="img-fluid  my-4 w-300  px-5 rounded-full" alt="...">
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-sd-6 col-md-3">
+                <div class="card-2 mb-4 py-3">
+                    <div class="img-card-2">
+                        <img src="https://www.jiomart.com/images/cms/aw_rbslider/slides/1705771099_3.jpg?im=Resize=(223,280)" class="img-fluid   my-4 w-300  px-5 rounded-full" alt="...">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<br/>
+
+<div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+    <ol class="carousel-indicators">
+      <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+      <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+      <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+    </ol>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="https://www.jiomart.com/images/cms/aw_rbslider/slides/1705579999_Web_Mumbai_JioMartHome_01.jpg?im=Resize=(1680,320)" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+         
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="https://www.jiomart.com/images/cms/aw_rbslider/slides/1705915158_Mumbai.jpg?im=Resize=(1680,320)" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="https://www.jiomart.com/images/cms/aw_rbslider/slides/1705579999_Web_Mumbai_JioMartHome_01.jpg?im=Resize=(1680,320)" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+         
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-target="#carouselExampleCaptions" data-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-target="#carouselExampleCaptions" data-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </button>
+  </div>
+
+
+<div class="container ">
+    <h1 class="text-center mt-5 mb-5">Top Deals
+    </h1>
+    <div class="row">
+        <div class="col-sd-12 col-md-3">
+            <div class="img-card-3">
+                <div class="card " style="width: 15rem;">
+                    <div class="card-body-3">
+                        <div class="card-body shadow ">
+                            <img src="../pages/Img/exchange.png" class="img-fluid pt-3" alt="...">
+                                <h5 class="my-3">
+                                    Return Policy
+                                </h5>
+                                <p class="card-text pb-3">We will provide free delivery
+                                    within 5 km from our shop</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="col-sd-12 col-md-3">
+            <div class="img-card-3">
+                <div class="card" style="width: 15rem;">
+                    <div class="card-body-3">
+                        <div class="card-body shadow">
+                            <img src="../pages/Img/order.png" class="img-fluid pt-3" alt="...">
+                                <h5 class="my-3">
+                                    Quality Product
+                                </h5>
+                                <p class="card-text pb-3">We will provide free delivery
+                                    within 5 km from our shop</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+        <div class="col-sd-12 col-md-3">
+            <div class="img-card-3">
+                <div class="card" style="width: 15rem;">
+                    <div class="card-body-3">
+                        <div class="card-body shadow">
+                            <img src="../pages/Img/online.png" class="img-fluid pt-3" alt="...">
+                            <h5 class="my-3">
+                                Online Order
+                            </h5>
+                            <p class="card-text pb-3">We will provide free delivery
+                                within 5 km from our shop
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="col-sd-12 col-md-3">
+            <div class="img-card-3">
+                <div class="card" style="width: 15rem;">
+                    <div class="card-body-3">
+                        <div class="card-body shadow">
+                            <img src="../pages/Img/24-hours.png" class="img-fluid pt-3" alt="...">
+                            <h5 class="my-3">
+                                24/7 Services
+                            </h5>
+                            <p class="card-text pb-3">We will provide free delivery
+                                within 5 km from our shop</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+ <br/>
+ <img src="https://www.jiomart.com/images/cms/aw_rbslider/slides/1705560305_Continue_Shopping_Desktop.jpg?im=Resize=(1240,150)" class="d-block w-100">
+ 
+ <div class="container r-bag">
+    <div class="container-4">
+        <div>
+            <h1 class="text-center pb-4">Dhamake Daar Discount</h1>
+        </div>
+        <div class="row ps-3">
+
+            <div class="col-sd-12 col-md-2">
+
+                <div class="img-box ">
+                    <img src="https://www.jiomart.com/images/cms/aw_rbslider/slides/1705407900_1.jpg?im=Resize=(223,280)" class=" w-90  mx-auto mt-2  my-5  shadow-lg">
+                </div>
+            </div>
+
+            <div class="col-sd-12 col-md-2">
+                <div class="img-box ">
+                    <img src="https://www.jiomart.com/images/cms/aw_rbslider/slides/1705407925_2.jpg?im=Resize=(223,280)" class=" w-90  mx-auto  mt-2  my-5  shadow-lg">
+                </div>
+            </div>
+
+            <div class="col-sd-12 col-md-2">
+                <div class="img-box">
+                    <img src="https://www.jiomart.com/images/cms/aw_rbslider/slides/1705407945_3.jpg?im=Resize=(223,280)" class=" w-90  mx-auto mt-2  my-5  shadow-lg">
+                </div>
+            </div>
+
+            <div class="col-sd-12 col-md-2">
+                <div class="img-box">
+                    <img src="https://www.jiomart.com/images/cms/aw_rbslider/slides/1705407794_4.jpg?im=Resize=(223,280) " class="  w-90  mx-auto  mt-2  my-5  shadow-lg">
+                </div>
+            </div>
+
+            <div class="col-sd-12 col-md-2">
+                <div class="img-box">
+                    <img src="https://www.jiomart.com/images/cms/aw_rbslider/slides/1705407822_5.jpg?im=Resize=(223,280)" class=" w-90  mx-auto mt-2  my-5  shadow-lg">
+                </div>
+            </div>
+
+            <div class="col-sd-12 col-md-2">
+                <div class="img-box">
+                    <img src="https://www.jiomart.com/images/cms/aw_rbslider/slides/1705407850_6.jpg?im=Resize=(223,280)" class="  w-90  mx-auto  mt-2  my-5  shadow-lg">
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+
+    <div class="container r-bag">
+        <div class="container-4">
+            <div>
+                <p class="text-center pt-4 fs-5"> Gallery</p>
+                <h6 class="text-center pb-4">Check our Gallery</h6>
+            </div>
+            <div class="row ps-3">
+
+                <div class="col-sd-12 col-md-2">
+
+                    <div class="img-box ">
+                        <img src="https://www.jiomart.com/images/cms/aw_rbslider/slides/1704961185_03_Small_Appliances_.jpg?im=Resize=(223,280)" class=" w-90  mx-auto mt-2  my-5  shadow-lg">
+                    </div>
+                </div>
+
+                <div class="col-sd-12 col-md-2">
+                    <div class="img-box ">
+                        <img src="https://www.jiomart.com/images/cms/aw_rbslider/slides/1705561411_02_Handmade_Sarees.jpg?im=Resize=(223,280)" class=" w-90  mx-auto  mt-2  my-5  shadow-lg">
+                    </div>
+                </div>
+
+                <div class="col-sd-12 col-md-2">
+                    <div class="img-box">
+                        <img src="https://www.jiomart.com/images/cms/aw_rbslider/slides/1705561837_06_Baby_Grooming.jpg?im=Resize=(223,280)" class=" w-90  mx-auto mt-2  my-5  shadow-lg">
+                    </div>
+                </div>
+
+                <div class="col-sd-12 col-md-2">
+                    <div class="img-box">
+                        <img src="https://www.jiomart.com/images/cms/aw_rbslider/slides/1704959156_02_Gas_Stoves.jpg?im=Resize=(223,280) " class="  w-90  mx-auto  mt-2  my-5  shadow-lg">
+                    </div>
+                </div>
+
+                <div class="col-sd-12 col-md-2">
+                    <div class="img-box">
+                        <img src="https://www.jiomart.com/images/cms/aw_rbslider/slides/1705561417_03_Ethnic_Footweae.jpg?im=Resize=(223,280)" class=" w-90  mx-auto mt-2  my-5  shadow-lg">
+                    </div>
+                </div>
+
+                <div class="col-sd-12 col-md-2">
+                    <div class="img-box">
+                        <img src="https://www.jiomart.com/images/cms/aw_rbslider/slides/1705563673_02_Pooja_Essentials.jpg?im=Resize=(223,280)" class="  w-90  mx-auto  mt-2  my-5  shadow-lg">
+                    </div>
+                </div>
+
+                <div class=" col-sd-12 col-md-2">
+                    <div class="img-box">
+                        <img src="https://www.jiomart.com/images/cms/aw_rbslider/slides/1705561852_03_Oral_Care.jpg?im=Resize=(223,280)" class=" w-90  mx-auto mt-2  my-5  shadow-lg">
+                    </div>
+                </div>
+
+                <div class="col-sd-12 col-md-2">
+                    <div class="img-box">
+                        <img src="https://www.jiomart.com/images/cms/aw_rbslider/slides/1705562847_04_Makeup___Lip_Care.jpg?im=Resize=(223,280)" class=" w-90  mx-auto  mt-2  my-5  shadow-lg">
+                    </div>
+                </div>
+
+                <div class="col-sd-12 col-md-2">
+                    <div class="img-box">
+                        <img src="https://www.jiomart.com/images/cms/aw_rbslider/slides/1704961302_06_Large_Applicne.jpg?im=Resize=(223,280)" class=" w-90  mx-auto mt-2  my-5  shadow-lg">
+                    </div>
+                </div>
+
+                <div class="col-sd-12 col-md-2">
+                    <div class="img-box">
+                        <img src="https://www.jiomart.com/images/cms/aw_rbslider/slides/1705563726_03_Furnishing.jpg?im=Resize=(223,280) " class="w-90  mx-auto  mt-2  my-5  shadow-lg">
+                    </div>
+                </div>
+
+                <div class="col-sd-12 col-md-2">
+                    <div class="img-box">
+                        <img src="https://www.jiomart.com/images/cms/aw_rbslider/slides/1705562728_01_Body___Skin_Care.jpg?im=Resize=(223,280)" class="img-1 w-90  mx-auto mt-2  my-5  shadow-lg">
+                    </div>
+                </div>
+
+                <div class="col-sd-12 col-md-2">
+                    <div class="img-box">
+                        <img src="https://www.jiomart.com/images/cms/aw_rbslider/slides/1704955213_03_Tops___Dresses.jpg?im=Resize=(223,280)" class=" w-90  mx-auto  mt-2  my-5  shadow-lg">
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</div>
+<br/>
+<img src="https://www.jiomart.com/images/cms/aw_rbslider/slides/1675955392_Jio_Cares_1240x194.jpg?im=Resize=(1240,150)" class="d-block w-100">
+
+    <div class="shop-footer">
+        <div class="footer-sec">
+            <p class="footer-sec-title"> Quick Links </p>
+            <div class="footer-data">
+                <p><a href="../pages/Index.html">Home </a></p>
+                <p><a href="../pages/About us.html">About us</a></p>
+                <p><a href="#">Contact us</a>
+                </p>
+
+                <p><a href="../pages/login.html"> Login </a>
+                <p><a href="../pages/ordernow.html"> Order Now</a>
+            </div>
+        </div>
+        <div class="footer-sec">
+            <p class="footer-sec-title"> Social :</p>
+            <div class="footer-data">
+                <p> <i class="fa-solid fa-envelope"></i>
+                    &nbsp; &nbsp; <a href="mailto:ashishgore382@gmail.com">aishupimparkar14@gmail.com</a>
+                </p>
+
+                <p> <i class="fa-solid fa-phone"></i>
+                    &nbsp; &nbsp; <a href="tel:+918805803087" class="footer-anchor"> +91-9172850657</a>
+                </p>
+
+                <p> <i class="fa-brands fa-facebook"></i> &nbsp;
+                    &nbsp; Facebook </p>
+
+                <p> <i class="fa-brands fa-twitter"></i> &nbsp;
+                    &nbsp; Twitter</p>
+
+                <p> <i class="fa-brands fa-instagram"></i> &nbsp;
+                    &nbsp; Instagram</p>
+
+                <p> <i class="fa-brands fa-linkedin"></i> &nbsp;
+                    &nbsp; LinkedIn</p>
+            </div>
+        </div>
+        <div class="footer-sec">
+            <p class="footer-sec-title"> Contact us :</p>
+            <div class="footer-data">
+
+                <p><i class="fa-solid fa-location-dot"></i>
+                    &nbsp; &nbsp; <a href="https://maps.app.goo.gl/N3ngnED1vBDYVvj19" target="blank"> Parikrama COE, Kashti</a>
+                </p>
+                <p> <i class="fa-solid fa-envelope"></i>
+                    &nbsp; &nbsp; <a href="mailto:aishupimparkar14@gmail.com">aishupimparkar14@gmail.com</a>
+                </p>
+
+                <p> <i class="fa-solid fa-phone"></i>
+                    &nbsp; &nbsp; <a href="tel:+918975004427"> +91-9172850657</a>
+                </p>
+            </div>
+        </div>
+    </div>
+    <script src="https://kit.fontawesome.com/4d47a5db67.js" crossorigin="anonymous"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous">
+        </script>
+        <script src="./index.js"></script>
+
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
+</body>
+</html>
